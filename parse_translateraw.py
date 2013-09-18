@@ -12,7 +12,7 @@ directory = os.path.join("c:\\docs\\yipiii\\templates-v2")
 for root, dirs, files in os.walk(directory):
     for file in files:
         try:
-            print 'Opening ', file, '...' 
+            print 'Open ', file, '...' 
             f = open(directory +'\\' + file, 'r')
         except IOError:
                 print 'cannot open:', file
