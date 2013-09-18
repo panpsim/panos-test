@@ -3,5 +3,3 @@
 - initialization before starting
 	git config --global user.email "panpsim@yahoo.com"
 	git config --global user.name "Pan Psim"
-
-extra test
